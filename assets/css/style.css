@@ -117,6 +117,7 @@ button {
     border-radius: 10px;
     background-color: var(--red);
     color: var(--ice);
+    cursor: pointer;
 }
 
 
@@ -202,6 +203,7 @@ button {
 .modal-content {
     background-color: var(--ice);
     padding: 16px 24px;
+    width: 844px;
     height: 365px;
     border-radius: 8px;
 }
@@ -228,6 +230,17 @@ button {
     transform: scale(1.0);
 }
 
-.e-mail .copy { 
-    display: flex;    
+.e-mail { 
+    width: 400px;
+    border: none;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-top: 107px;
+    color: var(--black-blue);
 }
+
+.copy { 
+    margin: 34px 300px;
+}
+
