@@ -107,7 +107,7 @@ main {
     font-size: 28px;
 }
 
-button {
+button  {
     width: 150px;
     height: 50px;
     font-family: 'Merriweather', serif;
@@ -119,6 +119,85 @@ button {
     color: var(--ice);
     cursor: pointer;
 }
+
+.content a {
+    width: 150px;
+    height: 50px;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: var(--red);
+    color: var(--ice);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* ----------Papelarias cor de papel ------------------- */
+.content-project { 
+    margin: 0 56px;
+}
+
+.cover-project { 
+    width: 1145px;
+    height: 369px;
+    margin: 136px 46px 0 46px;
+}
+
+.title-project {
+    color: var(--medium-blue);
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 36px;
+    margin-top: 88px;
+}
+
+.information { 
+    display: flex;
+    margin-top: 120px;
+    gap: 117px;
+}
+
+.information h3 { 
+    color: var(--dark-blue);
+    margin-bottom: 24px;
+}
+
+.application, .information div { 
+    width: 680px;
+    height: 607px;
+}
+
+.information p { 
+    color: var(--black-blue);
+}
+
+.column { 
+    margin-bottom: 102px
+}
+
+.emphasis {
+    font-size: 22px;
+    color: var(--medium-blue);
+}
+
+
+hr { 
+    margin: 120px 0 120px;
+    color: var(--red);
+}
+
+.phone { 
+    width: 675px; 
+    height: 906px;
+}
+
+/* ----------------------------- */
 
 
 #about {
@@ -172,6 +251,8 @@ button {
 }
 
 .footer {
+    position : fixed;
+    bottom  : 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
